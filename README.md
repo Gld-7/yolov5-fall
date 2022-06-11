@@ -6,6 +6,9 @@
 
   将百度网盘上下载来的图片放入mydata/images文件夹中,标注labels放入mydata/labels文件夹内
   
+  链接：https://pan.baidu.com/s/19ArWob81_oMLE5LtQx6yCQ 
+提取码：1234
+  
   labels文件夹内的标注是yolo使用的txt格式，但是由于平时我使用的都是xml格式，然后运行mydata文件夹中的split_train_val.py进行数据集划分，运行voc_label.py生成训练预测测试集的txt文件用于mydata.yaml读取
   
   所以在重现的时候要麻烦亲自编写划分数据集与生成路径文件的代码了
@@ -94,7 +97,10 @@
   
   test3.py只是一个轻量的预测代码，一次只能对一张图片预测，平台上的代码在此基础上可批量预测，见竞赛的ipynb
   
-  
+ 7、训练后的模型
+ 
+ 训练后的yolov5m模型：链接：https://pan.baidu.com/s/1sHr2zKYGJhcRcK_WVYeSMg 
+提取码：1234 
   
   
   
