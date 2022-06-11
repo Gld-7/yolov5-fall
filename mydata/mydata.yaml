@@ -1,0 +1,7 @@
+train: mydata/img_lab/train.txt
+val: mydata/img_lab/val.txt
+test: mydata/img_lab/test.txt
+nc: 3  # 修改为自己类别
+
+# class names
+names: ['stand', 'sit', 'fall']
